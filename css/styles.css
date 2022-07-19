@@ -73,7 +73,6 @@ h3 {
 
 .logo {
   display: block;
-
   color: var(--title-text-color);
   font-family: Raleway;
   font-size: 26px;
@@ -122,7 +121,7 @@ h3 {
   color: var(--accent-text-color);
 }
 
-a.link .current {
+.link.current {
   color: var(--accent-text-color);
 }
 
@@ -452,7 +451,6 @@ a.link .current {
 
 .container.footer {
   display: flex;
-  gap: 70px;
   padding-top: 0;
   padding-bottom: 0;
   align-items: baseline;
@@ -528,6 +526,7 @@ h3 {
 .join {
   display: flex;
   flex-direction: column;
+  margin-left: 70px;
 }
 
 .join-text {
